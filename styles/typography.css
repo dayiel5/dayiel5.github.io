@@ -1,0 +1,48 @@
+.cormorant-garamond-regular
+{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.cormorant-garamond-light
+{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.title
+{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: #FFA375;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.subtitle
+{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+    color: #ff6b1f;
+    font-size: 37px;
+    text-align: center;
+    margin: 0;
+}
+
+p
+{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
