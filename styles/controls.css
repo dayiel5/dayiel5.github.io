@@ -1,14 +1,16 @@
 button
 {
+    color: white;
+    background-color: mediumpurple;
+    border-color: rgba(255, 255, 255,0);
     height: 30px;
     border-radius: 12px;
     font-family: "Unbounded", sans-serif;
     font-weight: 300;
     border-style: solid;
     border-width: 5px;
-    border-color: rgba(255, 255, 255,0);
     transition: ease-in-out 0.2s;
-    color: white;
+    align-content: center;
 }
 
 button:hover
@@ -25,7 +27,8 @@ button:active
     scale: 0.92;
     border-style: solid;
     border-width: 5px;
-    border-color: #bd9ce1;
+    background-color: #ec5c15;
+    border-color: #FFA375;
     transition: none !important;
 }
 
