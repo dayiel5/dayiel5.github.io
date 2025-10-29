@@ -1,8 +1,8 @@
-const navbar = document.getElementById("navbar");
-const header = document.getElementById("header");
+const navbar = document.querySelector('.sticky-navbar');
+const header = document.querySelector('.header');
 const headerBottom = header.offsetHeight;
 
-window.addEventListener("scroll", () =>
+window.addEventListener('scroll', () =>
 {
-   if (window.scrollY >= headerBottom) navbar.classList.add("active"); else navbar.classList.remove("active");
+   if (window.scrollY >= headerBottom) navbar.classList.add('active'); else navbar.classList.remove('active');
 });

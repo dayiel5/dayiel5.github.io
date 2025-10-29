@@ -2,29 +2,33 @@ button
 {
     color: white;
     background-color: mediumpurple;
-    border-color: rgba(255, 255, 255,0);
     height: 30px;
-    border-radius: 12px;
-    font-family: "Unbounded", sans-serif;
-    font-weight: 300;
+    border-color: #FFFFFF00;
     border-style: solid;
     border-width: 5px;
-    transition: ease-in-out 0.2s;
+    border-radius: 12px;
+
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+
     align-content: center;
+
+    transition: ease-in-out 0.2s;
 }
 
 button:hover
 {
+    border-color: #ba9ddd;
     border-style: solid;
     border-width: 5px;
-    border-color: #ba9ddd;
     cursor: pointer;
+
     transition: ease-in-out 0.2s;
 }
 
 button:active
 {
-    scale: 0.92;
+    scale: 0.95;
     border-style: solid;
     border-width: 5px;
     background-color: #ec5c15;
@@ -39,9 +43,14 @@ button:active
     color: white;
     text-decoration: none;
     transition: color 0.3s ease, transform 0.3s ease;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
     display: inline-block;
+}
+
+.navlink.active
+{
+    color: #FFA375;
+    font-weight: 500;
 }
 
 .navlink:hover

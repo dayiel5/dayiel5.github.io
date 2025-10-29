@@ -23,17 +23,17 @@
     font-style: italic;
     font-size: 100px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 0;
     margin-bottom: 0;
 }
 
-.subtitle
+.highlight
 {
+    color: #ff6b1f;
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
-    color: #ff6b1f;
     font-size: 37px;
     text-align: center;
     margin: 0;
@@ -43,6 +43,8 @@ p
 {
     font-family: "Unbounded", sans-serif;
     font-optical-sizing: auto;
+    font-size: 15px;
     font-weight: 300;
     font-style: normal;
+    color: #27232E;
 }
